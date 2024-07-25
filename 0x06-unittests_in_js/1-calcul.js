@@ -13,7 +13,7 @@ function calculateNumber(type, a, b) {
       if (roundedB === 0) {
           return 'Error';
       }
-      return roundedA / roundedB;
+      return parseFloat((roundedA / roundedB).toFixed(1));
   }
 }
 
